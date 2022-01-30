@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        .form {
+
+            border: 1px solid black;
+            width: 80%;
+            height: 350px;
+            border: 4px solid black;
+            margin: auto;
+            text-align: center;
+        }
+        #firstpara {
+            padding: 4%;
+            border: 1px solid black;
+            width: 50%;
+            text-align: center;
+        }
+        #secondpara {
+            padding: 4%;
+            border: 1px solid black;
+            width: 50%;
+            text-align: center;
+        }
+        #thirdpara {
+            padding: 4%;
+            border: 1px solid black;
+            width: 50%;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            height: auto;
+        }
+        
+    </style>
+</head>
+<body >
+    <p><b>Please Enter input in paragraphs:</b></p>
+    <form class="form" onsubmit="return false;">
+        <textarea  placeholder="First Paragragh" id="firstpara" rows='1' cols='1'>
+
+        </textarea>
+        <textarea  placeholder="Second Paragragh" id="secondpara" rows='1' cols='1'>
+        
+        </textarea>
+        <textarea  placeholder="Third Paragragh" id="thirdpara" rows='1' cols='1' >
+        
+        </textarea>
+        <br>
+        <input type="submit" onclick="check()">
+        
+        </form>
+        <p>
+            <b>Output:</b><br>
+            Common Binary Numbers in above paragraphs are:
+
+        </p>
+      
+    <script src="bajwa.js"> </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+.body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 2px;
+  top: 2px;
+  right: 2px;  
+}
+.row{
+  background-color: yellow;
+}
+@media only screen and (max-width: 991px) {
+    .noti1 {
+        display: none;
+    }
+    .noti2 {
+        display: none;
+    }
+    .user {
+        display: none;
+    }
+    
+}
+.noti1{
+transition: all 0.5s;
+color: grey;
+position: relative;
+left: 20%;
+top: 10%;
+}
+.noti2{
+transition: all 0.5s;
+color: grey;
+position: relative;
+left: 30%;
+top: 10%;
+}
+.user{
+transition: all 0.5s;
+color: grey;
+position: relative;
+left: 40%;
+top: 10%;
+}
+i.fa-user{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  font-size: 22px;
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 7.2px;
+}
+i.fa-user:hover{
+  background-color: #FFC145;
+  }
+i.fa-envelope{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  font-size: 18px;
+  padding: 10px;
+}
+i.fa-envelope:hover{background-color: #FFC145;}
+i.fa-bell{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  font-size: 18px;
+  padding: 10px;
+}
+i.fa-bell:hover{background-color: #FFC145;}
+
+
+button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}

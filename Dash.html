@@ -1,88 +1,143 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Invisor Dashboard</title>
+    <link href="dash.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/comic-neue-angular"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caudex"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comic Neue"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Invisor Dashboard</title>
-	<link href="dash.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="http://fonts.cdnfonts.com/css/comic-neue-angular" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Caudex' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'>
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
-
-</head>
-
-<body>
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top"> -->
-	<div class="body">
-		<!--Here we can either add a whole logo developed externally on photoshop or import the following shape and adjust it accordingly
+  <body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top"> -->
+    <div class="body">
+      <!--Here we can either add a whole logo developed externally on photoshop or import the following shape and adjust it accordingly
           <i class="fa fa-cloud" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>-->
- 
-		<div class="logo">
-      <!-- <div class="col-sm-6 col-md-12"></div> -->
-			<a href="page1.html" id="b"><img src="logo2.png" width="100.41" height="101 .39">
-      <h2 id="si" >Smart <br>Invisor</h2></a>
-      
-        <button title="Notifications" class="but noti1"><i class="fa fa-envelope" aria-label="Messages" ></i></button>
-        <button title="Alerts" class="but noti2"><i class="fa fa-bell" aria-hidden="true" aria-label="Bell Notification" ></i></button>
-        <button title="Profile" class="but user"><i class="fa fa-user" aria-label="Profile" ></i></button>
-    </div>
-	<!-- </nav> -->
-    <div class="bodyC">
-      <div id="sidebtns">
-    <div id="sidebar">
-      <button class="b1"><i class="fa fa-line-chart" aria-hidden="true" aria-label="Chart"></i> Overview</button>
-    </div>
-    <div class="into2">
-      <button class="b2"><i class="fa fa-history" aria-hidden="true" aria-label="Transaction History"></i> Transaction</button>
-    </div>
-    <div class="into3">
-      <button class="b3"> <i class="fa fa-id-card" aria-hidden="true" aria-label="Card"></i>Cards</button>
-    </div>
-    <div class="into4">
-      <button class="b4"><i class="fa fa-file" aria-hidden="true" aria-label="Invoice"></i>Invoices</button>
-    </div>
-    <div class="into5">
-      <button class="b5"><i class="fa fa-cog" aria-hidden="true"></i>Settings</button>
-    </div>  
+
+      <div class="logo">
+        <!-- <div class="col-sm-6 col-md-12"></div> -->
+        <a href="page1.html" id="b"
+          ><img src="logo2.png" width="100.41" height="101 .39" />
+          <h2 id="si">Smart <br />Invisor</h2></a
+        >
+
+        <button title="Notifications" class="but noti1">
+          <i class="fa fa-envelope" aria-label="Messages"></i>
+        </button>
+        <button title="Alerts" class="but noti2">
+          <i
+            class="fa fa-bell"
+            aria-hidden="true"
+            aria-label="Bell Notification"
+          ></i>
+        </button>
+        <button title="Profile" class="but user">
+          <i class="fa fa-user" aria-label="Profile"></i>
+        </button>
       </div>
-    <div class="vl"></div>
-    <div class="vl2"></div>
-    <!-- everything related to company is here -->
-    <div class="comp_details">
-      <p id="comp"> Company Name....</p>
-        <a id="descp1" href="#">You can find all the details about the company here!</a>
-        <p id="amnt">$ 27.89</p>
-        <p id="val">Current Value</p>
-    </div>
-      <!--<input type="text" placeholder="Search the stock, market or company" aria-label="search">
+      <!-- </nav> -->
+      <div class="bodyC">
+        <div id="sidebtns">
+          <div id="sidebar">
+            <button class="b1">
+              <i
+                class="fa fa-line-chart"
+                aria-hidden="true"
+                aria-label="Chart"
+              ></i>
+              Overview
+            </button>
+          </div>
+          <div class="into2">
+            <button class="b2">
+              <i
+                class="fa fa-history"
+                aria-hidden="true"
+                aria-label="Transaction History"
+              ></i>
+              Transaction
+            </button>
+          </div>
+          <div class="into3">
+            <button class="b3">
+              <i class="fa fa-id-card" aria-hidden="true" aria-label="Card"></i
+              >Cards
+            </button>
+          </div>
+          <div class="into4">
+            <button class="b4">
+              <i class="fa fa-file" aria-hidden="true" aria-label="Invoice"></i
+              >Invoices
+            </button>
+          </div>
+          <div class="into5">
+            <button class="b5">
+              <i class="fa fa-cog" aria-hidden="true"></i>Settings
+            </button>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <div class="vl2"></div>
+        <!-- everything related to company is here -->
+        <div class="comp_details">
+          <p id="comp">Company Name....</p>
+          <a id="descp1" href="#"
+            >You can find all the details about the company here!</a
+          >
+          <p id="amnt">$ 27.89</p>
+          <p id="val">Current Value</p>
+        </div>
+        <!--<input type="text" placeholder="Search the stock, market or company" aria-label="search">
     <button>
       <i class="fa fa-search" aria-hidden="true" class="search " aria-label="submit search"></i>
       </button>
       </div>
       -->
         <div class="rect">
-         <button class="watch">Add To Watchlist  <i class="fa fa-angle-right" aria-hidden="true"></i>
-         </button>
-         </div>
-      <!-- Graphs of stocks -->
-      <div id="graphs">
-        <p id="graph1"></p>
-        <p id="graph2"></p>
-        <p id="trend">Trending Stocks<a href="https://www.investing.com/equities/trending-stocks" id="vew" target="_blank">View All</a>
-        </P>
-        <p id="graph3"></p>
-        <h2 class="pred">Prediction Result</h2>
-          <p class="res">Next PRICE will be___ </p>
-          
+          <button class="watch">
+            Add To Watchlist
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <!-- Graphs of stocks -->
+        <div id="graphs">
+          <p id="graph1"></p>
+          <p id="graph2"></p>
+          <p id="trend">
+            Trending Stocks<a
+              href="https://www.investing.com/equities/trending-stocks"
+              id="vew"
+              target="_blank"
+              >View All</a
+            >
+          </p>
+          <p id="graph3"></p>
+          <h2 class="pred">Prediction Result</h2>
+          <p class="res">Next PRICE will be___</p>
+        </div>
       </div>
-
-  </div>
-</div>
+    </div>
 
     <script src="script.js"></script>
   </body>

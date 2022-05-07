@@ -392,7 +392,6 @@ padding-left: 100px;
  
 .exp2 h3{
   position: relative;
-  
   width: 100%;
   /* background-color: yellow; */
   /* color: rgba(235, 190, 100); */
@@ -404,16 +403,18 @@ padding-left: 100px;
   font-size: 20px;
   text-transform: capitalize;
   text-decoration: none;
-  
+  color: rgba(235, 190, 100);
+  top: 2%;
 } 
 
 .socials{
-  /* padding-top: 10px; */
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
 }
 
 .socials li{
@@ -438,4 +439,77 @@ padding-left: 100px;
 
 .socials a:hover i{
     color: aqua;
+}
+
+.teams h3{
+  position: relative;
+  top: 2%;
+  /* left: 20px; */
+  /* background-color: yellow; */
+  color: rgba(235, 190, 100);
+  /* font-weight: 800; */
+  font-display: bold;
+  justify-content: center;
+  display: flex;
+  word-spacing: 2px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  /* text-transform: capitalize; */
+  text-decoration: none;
+}
+
+/* .exp3 h5{
+  font-display: bold;
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  word-spacing: 2px;
+  text-decoration: none;
+  color: rgb(218, 151, 17);
+
+} */
+
+.exp3{
+  display: inline-flex;
+  /* background-color: yellow; */
+  width: 170%;
+  gap: 50px;
+  height: 80%;
+  top: 1%;
+  position: relative;
+  left: -20%;
+}
+.caption{
+  display: inline-flex;
+  /* background-color: yellow; */
+  width: 140%;
+  gap: 70px;
+  position: relative;
+  left: -20%;
+  color: #0F4264;
+}
+.isa{
+  padding-left: 60px;
+}
+.exp4{
+  display: inline-flex;
+  /* background-color: green; */
+  width: 170%;
+  height: 80%;
+  gap: 30px;
+  top: 1%;
+  position: relative;
+  left: -20%;
+}
+.caption2{
+  display: inline-flex;
+  /* background-color: green; */
+  width: 140%;
+  gap: 30px;
+  position: relative;
+  left: -20%;
+  color: #0F4264;
+}
+img {
+  border-radius: 8px;
 }

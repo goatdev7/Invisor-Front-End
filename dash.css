@@ -279,7 +279,7 @@ line-height: 50px;
   width:30%;
   height: 3%;
   left:20%;
-  top: 27%;
+  top: 27.5%;
   font-family: Comic Neue;
   /* background-color: yellow; */
   font-style: normal;
@@ -420,21 +420,21 @@ top: 115%;
 transform: rotate(90deg);
 } */
 #graph2{
-color: rgb(212, 204, 126);
+/* color: rgb(212, 204, 126); */
 /* background-color: rgb(139, 139, 18); */
 position: absolute;
 width: 24%;
-height:45%;
+height:52%;
 left: 73%;
-top: 30%;
-border: 1px solid;
+top: 27%;
+border: 1px solid rgb(212, 204, 126);
 border-radius: 20px;
 }
 #trend{
 position: absolute;
-width: 25%;
+width: 24.5%;
 height:3%;
-left: 73%;
+left: 73.5%;
   font-family:Comic Neue;
   font-style: bold;
   font-weight: 600;
@@ -468,9 +468,9 @@ top: 78%;
 #graph3{
 position: absolute;
 width: 24%;
-height:55%;
+height:50%;
 left: 73%;
-top: 83%;
+top: 85%;
 color:rgb(243, 237, 179);
 border: 1px solid;
 border-radius: 20px;
@@ -558,7 +558,7 @@ button{
     background: #FFC145;
     position: relative;
     width: 30%;
-    height: 20%;
+    height: 6%;
     border-radius: 30px;
     /* padding: 10px 20px; */
     display: flex;
@@ -717,4 +717,156 @@ display: block;
 
 .footer-menu ul li a:hover{
   color: #27bcda;
+}
+
+#open{
+  color: rgb(129, 126, 101);
+  width: 70%;
+  font-size: 22px;
+  padding-left: 20px;
+  /* background-color: green; */
+  float: left;
+  position: relative;
+  /* display: inline-block; */
+}
+#oamt{
+    /* other styles goes here... */
+    display: inline-block;
+    /* padding-right: 10px; */
+    /* background-color: yellow; */
+    width: 20%;
+    font-size: 20px;
+}
+#high{
+  color: rgb(129, 126, 101);
+  width: 70%;
+  font-size: 22px;
+  padding-left: 20px;
+  bottom: 11px;
+  float: left;
+  /* background-color: green; */
+  /* display: inline-flex; */
+  position: relative;
+}
+#hamt{
+    /* other styles goes here... */
+    display: inline-block;
+    /* padding-top: 10px; */
+    /* background-color: yellow; */
+    width: 20%;
+    font-size: 20px;
+    /* float: right; */
+    /* vertical-align: top; */
+}
+#low{
+  color: rgb(129, 126, 101);
+  width: 70%;
+  font-size: 22px;
+  padding-left: 20px;
+  float: left;
+  position: relative;
+  bottom: 18px;
+  /* background-color: green; */
+  /* display: inline-flex; */
+}
+#lamt{
+    /* other styles goes here... */
+    display: inline-block;
+    /* padding-right: 10px; */
+    /* background-color: yellow; */
+    width: 20%;
+    font-size: 20px;
+    /* float: right; */
+    /* vertical-align: top; */
+}
+#close{
+  color: rgb(129, 126, 101);
+  width: 70%;
+  font-size: 22px;
+  padding-left: 20px;
+  /* background-color: green; */
+  float: left;
+  bottom: 22px;
+  position: relative;
+  /* display: inline-flex; */
+}
+#camt{
+    /* other styles goes here... */
+    display: inline-block;
+    /* padding-right: 10px; */
+    /* background-color: yellow; */
+    width: 20%;
+    font-size: 20px;
+    /* float: right; */
+    /* vertical-align: top; */
+}
+#change{
+ color: rgb(129, 126, 101);
+  width: 70%;
+  font-size: 22px;
+  padding-left: 20px;
+  /* background-color: green; */
+  float: left;
+  position: relative;
+  bottom: 33px;
+  /* display: inline-flex; */
+
+}
+#chamt{
+    /* other styles goes here... */
+    display: inline-block;
+    /* padding-right: 10px; */
+    /* background-color: yellow; */
+    width: 20%;
+    font-size: 20px;
+    /* float: right; */
+    /* vertical-align: top; */
+}
+#ttrend{
+  /* color: rgb(94, 94, 73); */
+  /* background-color: yellow; */
+  width:95%;
+  background-color: rgb(233, 233, 215);
+  position: relative;
+  top: 5px;
+  left: 8px;
+  /* height: 60%; */
+  border-radius: 7px;
+  font-family: Quicksand;
+  font-size: 15px;
+}
+
+th{
+  /* padding: 4px; */
+  /* padding-top: 3px; */ 
+  /* border-radius: 3px;
+  position: relative;
+  left: 5px;
+  top: 5px; */
+}
+tbody tr{
+  text-align: center;
+  padding: 4px;
+  /* padding-top:10px;  */
+  position: relative;
+  top: 10px;
+}
+.tsame{
+  color: rgb(2, 141, 2);
+  font-weight: 500;
+  font-display: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ttrend2 td{
+  font-family: Quicksand;
+  /* color: yellow; */
+  
+  text-align: center;
+  position: relative;
+  margin-top: 10%;
+  /* background-color: green; */
+}
+table{
+  border-spacing: 0 15px;
 }

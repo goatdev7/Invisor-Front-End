@@ -1,4 +1,4 @@
-unction check(){
+function check(){
   
     var a = document.getElementById('firstpara').value;
   
